@@ -12,10 +12,10 @@ pipeline {
   }
     post{
       success{
-        emailext body: 'test email notification Jenkins', subject: 'test email notification Jenkins', to: 'jaycp.cloud@gmail.com'
+        emailext body: 'test email notification Jenkins', subject: 'test email notification Jenkins', to: 'jr.cabido@cloud-bridge.co.uk'
       }
       failure{
-        emailext body: 'test email notification Jenkins', subject: 'test email notification Jenkins', to: 'jaycp.cloud@gmail.com'
+        emailext body: 'test email notification Jenkins', subject: 'test email notification Jenkins', to: 'jr.cabido@cloud-bridge.co.uk'
       }
     }
 }
